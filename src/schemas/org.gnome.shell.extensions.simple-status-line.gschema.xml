@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema path="/org/gnome/shell/extensions/simple-status-line/" id="org.gnome.shell.extensions.simple-status-line">
+    <key type="s" name="pattern">
+      <default>'p {cpu%}% | m {mem%}% | ↓ {downMb}Mb/s | ↑ {upMb}Mb/s | b {bat%}%'</default>
+      <summary>Pattern</summary>
+      <description>Pattern</description>
+    </key>
+    <key type="i" name="refresh-interval">
+      <default>1</default>
+      <summary>Refresh Interval In Second</summary>
+      <description>Refresh Interval In Second</description>
+    </key>
+    <key type="s" name="font-family">
+      <default>'Sans'</default>
+      <summary>Font Family</summary>
+      <description>Font Family</description>
+    </key>
+    <key type="s" name="font-size">
+      <default>'12'</default>
+      <summary>Font Size</summary>
+      <description>Font Size</description>
+    </key>
+    <key type="s" name="text-color">
+      <default>'#dddddd'</default>
+      <summary>Text Color</summary>
+      <description>Text Color</description>
+    </key>
+  </schema>
+</schemalist>
